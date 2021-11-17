@@ -62,7 +62,7 @@ jQuery(document).ready(function() {
 		if ( et_vimeo != null )	et_video_link = 'http://player.vimeo.com/video/' + et_vimeo[1];
 		else {
 			et_youtube = et_video_href.match(/watch\?v=([^&]*)/i);
-			if ( et_youtube != null ) et_video_link = 'http://youtube.com/embed/' + et_youtube[1];
+			if ( et_youtube != null ) et_video_link = 'https://youtube.com/embed/' + et_youtube[1];
 		}
 
 		jQuery.fancybox({
